@@ -12,4 +12,27 @@ An online portal where women can discuss their problems ,share their ideas,seek 
 The portal will be fully functional and responsive.The portal will be simple and easy to use so that every women can use it with ease.The portal will be easily accessible to all.
  The website will be made using HTML,CSS,Javascript,Bootstrap,PHP,SQL,Jquery,AngularJS and some additional frameworks as required.
  "No woman who is willing to fulfill her dreams should be left behind" is the  main motto behind choosing this project.
+ 
+**Functionalities Of the Discussion Portal:-**
+
+This script is a php forum very easy to use and very simple to edit. This php forum uses a MySQL database.
+It has an internal mailing system, a registering system and users can post topics (discussions) and reply to others.
+The home page of the forum has the list of categories of the forum. Each category has topics and their messages.
+
+This forum supports BBcode, that lets your users to format their messages. Available options are: Bold, Italic, Underlined, positioning at left, center and right, inserting links and inserting images.
+
+As said previously, users can communicate between them (privately) through the internal mailing system.
+
+When you are logged as an administrator, you can in addition to the general users privileges add, edit and delete categories, delete topics, edit messages of any user.
+
+**Instructions On how to run this Source Code **
+
+After downloading the source code of IWH 2018, you will have to uncompress (extract) it and to send it to the server of your website.
+You also have to create the tables "users", "pm", "categories" and "topics" in the Data Base.
+The sql query to execute is given in "database.sql".
+When the tables will be created, you have to put the data base IDs in the config.php file.
+
+Then, you have to sign up in your own forum. When it will be done, you have to change the value of the $admin variable of the config.php file to the username you used when you signed up. This variable indicate who is the administrator of the forum based on it username.
+
+The discussion forum will then be functional.
 
